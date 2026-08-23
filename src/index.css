@@ -59,7 +59,11 @@ html {
   overflow-x: hidden;
 }
 
-.situation-creation-page {
+.situation-creation-page,
+.action-reveal-shell,
+.verdict-reveal-shell,
+.match-history-shell,
+.awards-ceremony-shell {
   background: #090a0f url('../ui/bg/bg-lethal_v3.png') center / cover no-repeat fixed;
   min-height: 100vh;
 }
