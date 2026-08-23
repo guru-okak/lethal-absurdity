@@ -6,7 +6,12 @@ html,
 body,
 #root {
   max-width: 100vw;
+  min-height: 100%;
   overflow-x: hidden;
+}
+
+body {
+  background: url('../ui/bg/bg-lethal_v3.png') center / cover no-repeat fixed;
 }
 
 .app-shell .topbar {
