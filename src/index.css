@@ -51,20 +51,20 @@ html {
   scrollbar-width: thin;
 }
 
-.app-shell,
-.lobby-shell {
-  background: #090a0f url('../ui/bg/bg-lethal_v3.png') center / cover no-repeat fixed;
+.app-shell {
+  background: url('../ui/bg/bg-lethal_v3.png') center / cover no-repeat fixed;
   max-width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
 }
 
+.lobby-shell,
 .situation-creation-page,
 .action-reveal-shell,
 .verdict-reveal-shell,
 .match-history-shell,
 .awards-ceremony-shell {
-  background: #090a0f url('../ui/bg/bg-lethal_v3.png') center / cover no-repeat fixed;
+  background: url('../ui/bg/bg-lethal_v3.png') center / cover no-repeat fixed;
   min-height: 100vh;
 }
 
